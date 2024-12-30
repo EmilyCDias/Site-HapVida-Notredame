@@ -1,0 +1,273 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  /* .landing-page-header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(
+        rgba(111, 139, 251, 0.7),
+        rgba(111, 139, 251, 0.7)
+      ),
+      url(../img/caminhando.webp);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  } */
+  
+  nav {
+    display: flex;
+    padding: 1% 4%;
+    justify-content: space-between;
+    align-items: center;
+    width: 1162px;
+    background-color: #337ab7;
+  }
+  
+  nav img {
+    width: 100px;
+  }
+  
+  p {
+    text-align: justify;
+  }
+  
+  .nav-links {
+    flex: 1;
+    text-align: right;
+  }
+  
+  .nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 10px;
+    position: relative;
+  }
+  
+  .nav-links ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 9px;
+  }
+  
+  .nav-links ul li::after {
+    content: "";
+    width: 0%;
+    height: 4px;
+    background-color: #fab216;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+  }
+  
+  .nav-links ul li:hover::after {
+    width: 100%;
+  }
+  
+  .text-box {
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .text-box h1 {
+    font-size: 40px;
+    margin-top: 25px;
+    padding: 16px;
+  }
+  
+  .text-box p {
+    margin: 25px 0 40px;
+    font-size: 15px;
+    color: #fafafa;
+    padding: 16px;
+  }
+  
+  .text-box iframe {
+    width: calc(100% - 32px);
+    max-width: 600px;
+    margin: 0px 16px;
+  }
+  
+  nav .fa {
+    display: none;
+  }
+  
+  .header h1 {
+    margin-top: 100px;
+    font-size: 45px;
+  }
+  
+  @media (max-width: 700px) {
+    .text-box h1 {
+      font-size: 20px;
+    }
+    .nav-links ul li {
+      display: block;
+    }
+    .nav-links {
+      position: fixed;
+      background: #fab216;
+      height: 100vh;
+      width: 200px;
+      top: 0;
+      right: -200px;
+      text-align: left;
+      z-index: 2;
+      transition: 200ms;
+    }
+  
+    nav .fa {
+      display: block;
+      color: #fff;
+      margin: 10px;
+      font-size: 22px;
+      cursor: pointer;
+    }
+  
+    .nav-links ul {
+      padding: 20px;
+    }
+  
+    .header h1 {
+      font-size: 20px;
+      margin-top: 130px;
+    }
+  }
+  
+  footer {
+    background-color: #337ab7;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .footer-content {
+    max-width: 1000px;
+    margin: 0 auto;
+    /* margin-top: 50px; */
+  }
+
+.combate-header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #337ab7;
+    color: white;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.combate-header-content img {
+    width: 150px; 
+    margin-left: 20px; 
+}
+
+.combate-text-content {
+    max-width: 600px;
+}
+
+.combate-content {
+    background-color: #fab216;
+    margin: 50px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.combate-quiz-container {
+    background-color: #fab216;
+    margin: 50px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+.text-center h2 {
+    text-align: center;
+}
+
+#mais-sobre-doencas h2 {
+    text-align: center;
+    margin-bottom: 20px; 
+}
+
+#combate-mais-sobre-doencas h2 {
+    text-align: center;
+    margin-bottom: 20px; /
+}
+.combate-button {
+    padding: 10px;
+    background-color: #337ab7;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.combate-button:hover {
+    background-color: #555;
+}
+
+#combate-quiz-container {
+    margin-bottom: 10px;
+}
+
+.combate-visual-elements {
+    margin-top: 20px;
+}
+
+.combate-visual-elements table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+.combate-visual-elements th, .combate-visual-elements td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.combate-visual-elements th {
+    background-color: #f2f2f2;
+}
+
+
+.combate-infographic {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.combate-section {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.combate-icon {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+#combate-introducao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 20vh;
+    margin-bottom: 100px; 
+}

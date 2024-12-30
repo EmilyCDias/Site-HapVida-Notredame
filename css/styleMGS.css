@@ -1,0 +1,358 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  
+  nav {
+    display: flex;
+    padding: 1% 4%;
+    justify-content: space-between;
+    align-items: center;
+    width: 1162px;
+    background-color: #337ab7;
+  }
+  
+  nav img {
+    width: 100px;
+  }
+  
+  p {
+    text-align: justify;
+  }
+  
+  .nav-links {
+    flex: 1;
+    text-align: right;
+  }
+  
+  .nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 10px;
+    position: relative;
+  }
+  
+  .nav-links ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 9px;
+  }
+  
+  .nav-links ul li::after {
+    content: "";
+    width: 0%;
+    height: 4px;
+    background-color: #fab216;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+  }
+  
+  .nav-links ul li:hover::after {
+    width: 100%;
+  }
+  
+  .text-box {
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .text-box h1 {
+    font-size: 40px;
+    margin-top: 25px;
+    padding: 16px;
+  }
+  
+  .text-box p {
+    margin: 25px 0 40px;
+    font-size: 15px;
+    color: #fafafa;
+    padding: 16px;
+  }
+  
+  .text-box iframe {
+    width: calc(100% - 32px);
+    max-width: 600px;
+    margin: 0px 16px;
+  }
+  
+  nav .fa {
+    display: none;
+  }
+  
+  .header h1 {
+    margin-top: 100px;
+    font-size: 45px;
+  }
+  
+  @media (max-width: 700px) {
+    .text-box h1 {
+      font-size: 20px;
+    }
+    .nav-links ul li {
+      display: block;
+    }
+    .nav-links {
+      position: fixed;
+      background: #fab216;
+      height: 100vh;
+      width: 200px;
+      top: 0;
+      right: -200px;
+      text-align: left;
+      z-index: 2;
+      transition: 200ms;
+    }
+  
+    nav .fa {
+      display: block;
+      color: #fff;
+      margin: 10px;
+      font-size: 22px;
+      cursor: pointer;
+    }
+  
+    .nav-links ul {
+      padding: 20px;
+    }
+  
+    .header h1 {
+      font-size: 20px;
+      margin-top: 130px;
+    }
+  }
+  
+  footer {
+    background-color: #337ab7;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .footer-content {
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  
+
+/*---Bloco Imagens---*/
+
+
+
+#img1{
+    background-image: url(../img/bem_estar.jpg);
+    width: 480px; 
+    height: 300px;
+    border-radius: 3px;
+    position: relative;
+    display: inline-block;
+}
+
+#img2{
+    background-image: url(../img/saude_mental.jpg);
+    width: 480px; 
+    height: 300px;
+    border-radius: 3px;
+    position: relative;
+    display: inline-block;
+}
+
+#img3{
+    background-image: url(../img/resistencia.jpg);
+    width: 480px; 
+    height: 300px;
+    border-radius: 3px;
+    position: relative;
+    display: inline-block;
+}
+
+#img4{
+    background-image: url(../img/qualidade.jpg);
+    width: 480px; 
+    height: 300px;
+    border-radius: 3px;
+    position: relative;
+}
+
+#img5{
+    background-image: url(../img/longevidade.jpg);
+    width: 480px; 
+    height: 300px;
+    border-radius: 3px;
+    position: relative;
+}
+
+#img6{
+    background-image: url(../img/equilibrio.jpg);
+    width: 480px; 
+    height: 300px;
+    border-radius: 3px;
+    position: relative;
+}
+
+#img7{
+    background-image: url(../img/habitos.jpg);
+    width: 480px; 
+    height: 300px;
+    border-radius: 3px;
+    position: relative;
+}
+
+#img8{
+    background-image: url(../img/auto_cuidado.jpg);
+    width: 480px; 
+    height: 300px;
+    border-radius: 3px;
+    position: relative;
+}
+
+#img9{
+  background-image: url(../img/estilodevida.jpg);
+  width: 480px; 
+  height: 300px;
+  border-radius: 3px;
+  position: relative;
+  display: inline-block;
+}
+
+#img10{
+  background-image: url(../img/diagnostico.jpg);
+  width: 480px; 
+  height: 300px;
+  border-radius: 3px;
+  position: relative;
+  display: inline-block;
+}
+
+#img11{
+  background-image: url(../img/ambientesS.jpg);
+  width: 480px; 
+  height: 300px;
+  border-radius: 3px;
+  position: relative;
+  display: inline-block;
+}
+
+#img12{
+  background-image: url(../img/politicas.jpg);
+  width: 480px; 
+  height: 300px;
+  border-radius: 3px;
+  position: relative;
+  display: inline-block;
+}
+
+#img13{
+  background-image: url(../img/intervencao.jpg);
+  width: 480px; 
+  height: 300px;
+  border-radius: 3px;
+  position: relative;
+  display: inline-block;
+}
+
+#img14{
+  background-image: url(../img/reabilitacao.jpg);
+  width: 480px; 
+  height: 300px;
+  border-radius: 3px;
+  position: relative;
+  display: inline-block;
+}
+
+#img15{
+  background-image: url(../img/apoio.jpg);
+  width: 480px; 
+  height: 300px;
+  border-radius: 3px;
+  position: relative;
+  display: inline-block;
+}
+
+
+#img16{
+  background-image: url(../img/monitoramento.jpg);
+  width: 480px; 
+  height: 300px;
+  border-radius: 3px;
+  position: relative;
+  display: inline-block;
+}
+
+#img17{
+  background-image: url(../img/equipemulti.jpg);
+  width: 480px; 
+  height: 300px;
+  border-radius: 3px;
+  position: relative;
+  display: inline-block;
+}
+
+#img18{
+  background-image: url(../img/telemedicina.jpg);
+  width: 480px; 
+  height: 300px;
+  border-radius: 3px;
+  position: relative;
+  display: inline-block;
+}
+
+/*--- Fim do Bloco Imagens---*/
+
+.paragrafo1{
+    background-color: #337ab7;
+    padding: 10px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+    padding-bottom: -50px;
+}
+
+.paragrafo2{
+    background-color: #337ab7;
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    height: 70px;
+    border-radius: 5px;
+}
+
+.conteudo{
+    max-width: fit-content;
+    margin: auto;
+    width: 1100px;
+    position: relative;
+    top: 50px;
+}
+.bloco{
+    display: inline-block;
+    width: 480px; 
+    height: 450px;
+    /* margin-top: 50px;
+    margin-left: 50px; */
+    text-align: left;
+    white-space: normal;
+    background-color: #fab216;
+    text-align: justify;
+    margin: 5px;
+    margin-left: 35px;
+    border-radius: 5px;
+    padding: 5px;
+
+    
+}
+
+.titulo{
+    background-color: #337ab7;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+
